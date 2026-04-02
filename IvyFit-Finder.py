@@ -6,7 +6,7 @@ from typing import Dict
 
 
 
-client = DB_TOKEN
+client = st.secrets["OPENAI_API_KEY"]
 
 
 #Configuration
