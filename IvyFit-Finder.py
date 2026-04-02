@@ -4,11 +4,6 @@ import openai
 import numpy as np
 from typing import Dict
 
-
-
-client = st.secrets["OPENAI_API_KEY"]
-
-
 #Configuration
 EMBEDDING_MODEL = "text-embedding-3-small"  # or "text-embedding-3-large"
 
