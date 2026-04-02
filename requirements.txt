@@ -2,4 +2,3 @@ openai
 numpy
 typing
 threading
-os
