@@ -5,10 +5,8 @@ import numpy as np
 from typing import Dict
 import threading
 
-from openai import OpenAI
-import os
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = DB_TOKEN
 
 
 #Configuration
