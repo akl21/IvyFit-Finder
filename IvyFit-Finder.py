@@ -3,7 +3,7 @@ import streamlit as st
 import openai
 import numpy as np
 from typing import Dict
-import threading
+
 
 
 client = DB_TOKEN
